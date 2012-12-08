@@ -30,3 +30,10 @@ how to separate it into PO file messages.
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1*
 
+
+
+%changelog
+* Tue Mar 06 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.1.2-1
++ Revision: 782532
+- imported package itstool
+
