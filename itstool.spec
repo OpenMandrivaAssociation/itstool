@@ -1,10 +1,10 @@
+Summary:	ITS-based XML translation tool
 Name:		itstool
 Version:	1.2.0
 Release:	1
-Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
-URL:		http://itstool.org/
+Url:		http://itstool.org/
 Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 Requires:	python-libxml2
@@ -29,11 +29,4 @@ how to separate it into PO file messages.
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1*
-
-
-
-%changelog
-* Tue Mar 06 2012 Matthew Dawkins <mattydaw@mandriva.org> 1.1.2-1
-+ Revision: 782532
-- imported package itstool
 
