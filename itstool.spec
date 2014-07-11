@@ -1,7 +1,7 @@
 Summary:	ITS-based XML translation tool
 Name:		itstool
 Version:	1.2.0
-Release:	6
+Release:	7
 Group:		System/Internationalization
 License:	GPLv3+
 Url:		http://itstool.org/
