@@ -1,12 +1,13 @@
-Summary:	ITS-based XML translation tool
 Name:		itstool
-Version:	1.2.0
-Release:	7
+Version:	2.0.2
+Release:	1
+Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
-Url:		http://itstool.org/
+URL:		http://itstool.org/
 Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
+BuildRequires:	libxml2-python
 Requires:	python-libxml2
 
 %description
@@ -18,7 +19,7 @@ how to separate it into PO file messages.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
@@ -29,4 +30,3 @@ how to separate it into PO file messages.
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1*
-
