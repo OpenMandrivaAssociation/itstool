@@ -7,8 +7,8 @@ License:	GPLv3+
 URL:		http://itstool.org/
 Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
-BuildRequires:	libxml2-python
-Requires:	python-libxml2
+BuildRequires:	python2-libxml2
+Requires:	python2-libxml2
 Requires:	python2
 
 %description
