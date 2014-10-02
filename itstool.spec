@@ -1,6 +1,6 @@
 Name:		itstool
 Version:	2.0.2
-Release:	1
+Release:	2
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
@@ -9,6 +9,7 @@ Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	libxml2-python
 Requires:	python-libxml2
+Requires:	python2
 
 %description
 ITS Tool allows you to translate XML documents with PO files, using rules from
@@ -17,8 +18,11 @@ how to separate it into PO file messages.
 
 %prep
 %setup -q
+sed -i 's/| python/&2/' configure.ac
+autoreconf -fi
 
 %build
+export PYTHON=/usr/bin/python2
 %configure
 %make
 
