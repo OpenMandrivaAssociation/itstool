@@ -1,6 +1,6 @@
 Name:		itstool
 Version:	2.0.2
-Release:	4
+Release:	5
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
@@ -30,7 +30,6 @@ export PYTHON=/usr/bin/python2
 %makeinstall_std
 
 %files
-%doc NEWS
 %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_mandir}/man1/%{name}.1*
