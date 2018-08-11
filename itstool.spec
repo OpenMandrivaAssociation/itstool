@@ -19,8 +19,8 @@ how to separate it into PO file messages.
 
 %prep
 %setup -q
+%patch -p0
 autoreconf -fi
-%apply_patches
 
 %build
 %configure
