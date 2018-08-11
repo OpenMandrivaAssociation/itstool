@@ -19,7 +19,7 @@ how to separate it into PO file messages.
 
 %prep
 %setup -q
-%patch -p0
+%patch0 -p0
 autoreconf -fi
 
 %build
