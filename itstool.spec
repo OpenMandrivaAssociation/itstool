@@ -1,6 +1,6 @@
 Name:		itstool
 Version:	2.0.4
-Release:	2
+Release:	3
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
