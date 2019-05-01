@@ -1,5 +1,5 @@
 Name:		itstool
-Version:	2.0.5
+Version:	2.0.6
 Release:	1
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
