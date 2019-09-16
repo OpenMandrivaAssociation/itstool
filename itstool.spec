@@ -22,10 +22,10 @@ autoreconf -fi
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/%{name}
