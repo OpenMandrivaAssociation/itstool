@@ -1,11 +1,15 @@
 Name:		itstool
 Version:	2.0.6
-Release:	1
+Release:	2
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
 URL:		http://itstool.org/
 Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
+# From upstream pull request:
+# https://github.com/itstool/itstool/pull/18
+Patch0101:	0001-Fix-a-segmentation-fault-bug-introduced-with-version.patch
+
 BuildArch:	noarch
 BuildRequires:	python-libxml2
 Requires:	python-libxml2
