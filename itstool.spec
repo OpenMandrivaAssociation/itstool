@@ -4,7 +4,7 @@ Release:	2
 Summary:	ITS-based XML translation tool
 Group:		System/Internationalization
 License:	GPLv3+
-URL:		http://itstool.org/
+URL:		https://itstool.org/
 Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 # From upstream pull request:
 # https://github.com/itstool/itstool/pull/18
