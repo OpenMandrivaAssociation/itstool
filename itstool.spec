@@ -11,6 +11,11 @@ Source0:	http://files.itstool.org/itstool/%{name}-%{version}.tar.bz2
 Patch0101:	0001-Fix-a-segmentation-fault-bug-introduced-with-version.patch
 
 BuildArch:	noarch
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	python-libxml2
 Requires:	python-libxml2
 Requires:	python
